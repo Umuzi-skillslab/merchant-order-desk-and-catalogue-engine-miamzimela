@@ -1,8 +1,8 @@
 package com.paynestsystem.domain;
 
 public class OrderItem {
-    private Product product;
-    private int quantity;
+    private final Product product;
+    private final int quantity;
 
     //Constructor
     public OrderItem(Product product, int quantity) {

@@ -1,9 +1,9 @@
 package com.paynestsystem.domain;
 
 public class Product {
-    private int id;
-    private String name;
-    private double price;
+    private final int id;
+    private final String name;
+    private final double price;
 
     // Constructor: Creates a product in one line
     public Product(int id, String name, double price) {
