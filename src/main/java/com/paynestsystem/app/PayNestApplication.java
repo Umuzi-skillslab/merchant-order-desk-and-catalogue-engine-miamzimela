@@ -7,7 +7,7 @@ public class PayNestApplication {
     public static void main(String[] args) {
         // Create sample products
         Product womack = new Product(101, "The Poet - Bobby Womack", 849.99);
-        Product queen = new Product(102, "Hot Space - Queen)", 999.90);
+        Product queen = new Product(102, "Hot Space - Queen", 999.90);
 
         //2. Create sample customer
         Customer customer = new Customer(1, "Mia Kaluuya", "miathewhale@example.co.za");
