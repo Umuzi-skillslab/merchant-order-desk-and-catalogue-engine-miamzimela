@@ -10,6 +10,7 @@ public class PayNestApplication {
         Product queen = new Product(102, "Hot Space - Queen", 999.90);
 
         //2. Create sample customer
+        Customer customer = new Customer(1, "Mia Mzimela", "mia.mzimela@umuzi.org");
 
         //3. Create order
         Order order = new Order(5001, customer);
