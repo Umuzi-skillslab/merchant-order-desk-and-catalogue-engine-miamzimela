@@ -15,4 +15,16 @@
         <exec.mainClass>com.paynestsystem.app.PayNestApplication</exec.mainClass>
     </properties>
 
+<build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.6.3</version>
+                <configuration>
+                    <mainClass>com.paynestsystem.app.PayNestApplication</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
