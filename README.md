@@ -1,2 +1,23 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=24003225&assignment_repo_type=AssignmentRepo)
 # Merchant-order-desk-and-catalogue-engine
+
+## PayNest System Demo
+This application simulates creating a customer order and printing a receipt using the core commerce modules.
+
+### Prerequisites
+* Java 17
+* Maven installed locally (or via IDE integration)
+* Clean internet/network connection for initial plugin sync
+
+### How to Run in terminal 
+
+**Navigate to the project root:**
+   ```bash
+   cd merchant-order-desk-and-catalogue-engine-miamzimela
+
+#How to run  with Maven 
+mvn compile exec:java
+
+#How to run alternatively to avoid firewalls/ local networks/ security blocks
+Powershell
+javac -d bin --source-path src/main/java src/main/java/com/paynestsystem/app/PayNestApplication.java
+java -cp bin com.paynestsystem.app.PayNestApplication
