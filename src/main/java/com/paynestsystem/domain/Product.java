@@ -1,29 +1,27 @@
 package com.paynestsystem.domain;
 
+import java.math.BigDecimal;
+
 public class Product {
     private final int id;
     private final String name;
-    private final double price;
+    private final BigDecimal price;
 
-    // Constructor: Creates a product in one line
-    public Product(int id, String name, double price) {
+    public Product(int id, String name, BigDecimal price) {
+        if (price == null || price.compareTo(BigDecimal.ZERO) < 0) {
+            throw new IllegalArgumentException("Price must be zero or a positive value.");
+        }
         this.id = id;
         this.name = name;
         this.price = price;
     }
 
-    //Getter for Name
-    public String getName() {
-        return name;
+    // Convenience constructor — accepts a plain string e.g. "849.99"
+    public Product(int id, String name, String price) {
+        this(id, name, new BigDecimal(price));
     }
 
-    //Getter for Price
-    public double getPrice() {
-        return price;
-    }
-
-    //Getter for ID
-    public int getId() {
-        return id;
-    }
+    public int getId()           { return id; }
+    public String getName()      { return name; }
+    public BigDecimal getPrice() { return price; }
 }
