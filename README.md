@@ -1,7 +1,5 @@
 # PayNest — Merchant Order Desk & Catalogue Engine
 
-[![Open in VS Code](https://img.shields.io/badge/Open%20in-VS%20Code-007ACC?logo=visual-studio-code)](vscode://vscode.git/clone?url=https://github.com/Umuzi-skillslab/merchant-order-desk-and-catalogue-engine-miamzimela.git)
-
 A minimal Java commerce kernel for PayNest, a South African fintech helping small
 merchants produce consistent pricing, order totals, and customer-linked receipts.
 
