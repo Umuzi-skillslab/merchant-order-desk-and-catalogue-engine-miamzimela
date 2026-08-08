@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.paynestsystem.domain.OrderTest" time="0.027" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.paynestsystem.domain.OrderTest" time="0.059" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ZA"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\OEM\AppData\Local\Temp\surefire3317480470268089109\surefirebooter-20260730132603518_3.jar C:\Users\OEM\AppData\Local\Temp\surefire3317480470268089109 2026-07-30T13-26-03_265-jvmRun1 surefire-20260730132603518_1tmp surefire_0-20260730132603518_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\OEM\AppData\Local\Temp\surefire8092253256586721925\surefirebooter-20260730140403716_3.jar C:\Users\OEM\AppData\Local\Temp\surefire8092253256586721925 2026-07-30T14-04-03_419-jvmRun1 surefire-20260730140403716_1tmp surefire_0-20260730140403716_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\OEM\Desktop\merchant-order-desk-and-catalogue-engine-miamzimela\target\test-classes;C:\Users\OEM\Desktop\merchant-order-desk-and-catalogue-engine-miamzimela\target\classes;C:\Users\OEM\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\OEM\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\OEM\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\OEM\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\OEM\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\OEM\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\OEM\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\OEM\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\OEM\AppData\Local\Temp\surefire3317480470268089109\surefirebooter-20260730132603518_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\OEM\AppData\Local\Temp\surefire8092253256586721925\surefirebooter-20260730140403716_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.19+10"/>
@@ -44,7 +44,6 @@
     <property name="localRepository" value="C:\Users\OEM\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="C:\Users\OEM\AppData\Local\Temp\"/>
-    <property name="javax.net.ssl.trustStoreType" value="WINDOWS-ROOT"/>
     <property name="java.version" value="17.0.19"/>
     <property name="user.dir" value="C:\Users\OEM\Desktop\merchant-order-desk-and-catalogue-engine-miamzimela"/>
     <property name="os.arch" value="amd64"/>
@@ -59,15 +58,15 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="multipleItemsGrandTotalEqualsSum" classname="com.paynestsystem.domain.OrderTest" time="0.002"/>
+  <testcase name="multipleItemsGrandTotalEqualsSum" classname="com.paynestsystem.domain.OrderTest" time="0.007"/>
   <testcase name="singleItemTotal" classname="com.paynestsystem.domain.OrderTest" time="0.001"/>
-  <testcase name="nullCustomerThrowsException" classname="com.paynestsystem.domain.OrderTest" time="0.001"/>
-  <testcase name="addItemIncreasesListSize" classname="com.paynestsystem.domain.OrderTest" time="0.001"/>
-  <testcase name="singleItemMultipleQuantity" classname="com.paynestsystem.domain.OrderTest" time="0.002"/>
-  <testcase name="zeroQuantityThrowsException" classname="com.paynestsystem.domain.OrderTest" time="0.002"/>
-  <testcase name="negativeQuantityThrowsException" classname="com.paynestsystem.domain.OrderTest" time="0.001"/>
-  <testcase name="nullProductThrowsException" classname="com.paynestsystem.domain.OrderTest" time="0.001"/>
-  <testcase name="grandTotalMatchesSumOfLineTotals" classname="com.paynestsystem.domain.OrderTest" time="0.0"/>
-  <testcase name="emptyOrderTotalIsZero" classname="com.paynestsystem.domain.OrderTest" time="0.0"/>
+  <testcase name="nullCustomerThrowsException" classname="com.paynestsystem.domain.OrderTest" time="0.004"/>
+  <testcase name="addItemIncreasesListSize" classname="com.paynestsystem.domain.OrderTest" time="0.002"/>
+  <testcase name="singleItemMultipleQuantity" classname="com.paynestsystem.domain.OrderTest" time="0.004"/>
+  <testcase name="zeroQuantityThrowsException" classname="com.paynestsystem.domain.OrderTest" time="0.003"/>
+  <testcase name="negativeQuantityThrowsException" classname="com.paynestsystem.domain.OrderTest" time="0.002"/>
+  <testcase name="nullProductThrowsException" classname="com.paynestsystem.domain.OrderTest" time="0.002"/>
+  <testcase name="grandTotalMatchesSumOfLineTotals" classname="com.paynestsystem.domain.OrderTest" time="0.001"/>
+  <testcase name="emptyOrderTotalIsZero" classname="com.paynestsystem.domain.OrderTest" time="0.001"/>
   <testcase name="getItemsIsUnmodifiable" classname="com.paynestsystem.domain.OrderTest" time="0.001"/>
 </testsuite>
